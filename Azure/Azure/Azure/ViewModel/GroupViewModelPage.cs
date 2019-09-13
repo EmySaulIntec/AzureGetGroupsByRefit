@@ -18,6 +18,7 @@ namespace Azure.ViewModel
 
         public ObservableCollection<Group> Groups { get; set; }
 
+        public bool IsPlaying { get; set; }
         public GroupViewModelPage()
         {
             Groups = new ObservableCollection<Group>();
@@ -26,6 +27,8 @@ namespace Azure.ViewModel
             {
                 if (Connectivity.NetworkAccess == NetworkAccess.Internet)
                 {
+                    IsPlaying = true;
+
                     var nsAPI = RestService.For<IAzureAppService>(Config.HostUri);
                     var response = await nsAPI.GetGroups(Config.ApiKey);
 
@@ -39,13 +42,13 @@ namespace Azure.ViewModel
                     {
                         Groups.Add(e);
                     });
-
+                
+                    IsPlaying = false;
                 }
                 else
                 {
                     await App.Current.MainPage.DisplayAlert("Internet connection", "No connection try later", "Ok");
                 }
-
             });
         }
 
