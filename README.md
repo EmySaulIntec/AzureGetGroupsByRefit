@@ -11,3 +11,10 @@
 # Documentations 
 
 https://eastus2.dev.cognitive.microsoft.com/docs/services/563879b61984550e40cbbe8d/operations/563879b61984550f30395248
+
+
+### IMAGES 
+
+![Allowed format](https://github.com/EmySaulIntec/AzureGetGroupsByRefit/blob/master/Images/1.PNG)
+
+
