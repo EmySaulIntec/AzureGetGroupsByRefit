@@ -16,5 +16,10 @@ https://eastus2.dev.cognitive.microsoft.com/docs/services/563879b61984550e40cbbe
 ### IMAGES 
 
 ![Allowed format](https://github.com/EmySaulIntec/AzureGetGroupsByRefit/blob/master/Images/1.PNG)
+![Allowed format](https://github.com/EmySaulIntec/AzureGetGroupsByRefit/blob/master/Images/2.PNG)
+![Allowed format](https://github.com/EmySaulIntec/AzureGetGroupsByRefit/blob/master/Images/3.PNG)
+![Allowed format](https://github.com/EmySaulIntec/AzureGetGroupsByRefit/blob/master/Images/4.PNG)
+![Allowed format](https://github.com/EmySaulIntec/AzureGetGroupsByRefit/blob/master/Images/5.PNG)
+
 
 
